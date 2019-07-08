@@ -14,8 +14,8 @@ class FetchingData extends LitElement {
 
   firstUpdated() {
     fetch('https://swapi.co/api/people/')
-      .then((r) => r.json())
-      .then((r) => {
+      .then(r => r.json())
+      .then(r => {
         this.response = r.results;
       });
   }
