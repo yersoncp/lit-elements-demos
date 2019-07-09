@@ -25,7 +25,7 @@ class PropertyChanges extends LitElement {
   render() {
     return html`
       <div>
-        Count from 0 to 10: [${this.count}]
+        Count from 0 to 10: ${this.count}
       </div>
     `;
   }
